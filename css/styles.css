@@ -65,15 +65,15 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .delivery-section {
-    background-color: #fff;
-    padding: 60px 0px;
-  }
   .container {
     width: 100%;
     max-width: 480px;
     margin: 0 auto;
     padding: 0 15px;
+  }
+  .delivery-section {
+    background-color: #fff;
+    padding: 60px 0px;
   }
   .list {
     list-style: none;
@@ -88,7 +88,7 @@ body {
     text-transform: uppercase;
   }
   .delivery-line-title {
-    width: 70%;
+    width: 100%;
     margin-left: 14px;
     height: 1px;
     color: black;
@@ -97,8 +97,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 45px;
-    margin-bottom: 70px;
+
+    margin-bottom: 45px;
   }
   .delivery-svg-ellipse {
     fill: #fff;
@@ -121,7 +121,7 @@ body {
   .delivery-svg-position {
     position: relative;
   }
-  .xxx {
+  .number-in-svg {
     position: absolute;
     top: 8px;
     left: 16px;
@@ -138,15 +138,195 @@ body {
     margin: 0 auto;
     padding: 0;
   }
-  .zzz {
+  .delivery-image-position {
     margin-top: 26px;
   }
-  .ppp {
+  .delivery-article {
     color: #000;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    max-width: 232px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .delivery-section {
+    background-color: #fff;
+    padding: 100px 0px;
+  }
+  .list {
+    list-style: none;
+  }
+  .delivery-title {
+    font-size: 44px;
+    color: #000;
+    font-family: "Montserrat" sans-serif;
+
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .delivery-line-title {
+    width: 100%;
+    margin-left: 16px;
+
+    height: 1px;
+    color: black;
+  }
+  .delivery-title-position {
+    margin-bottom: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .delivery-svg-ellipse {
+    margin-right: 8px;
+    width: 64px;
+    height: 64px;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #000;
+  }
+  .delivery-order-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .delivery-order-number {
+    display: flex;
+
+    align-items: center;
+  }
+  .delivery-svg-position {
+    position: relative;
+  }
+  .number-in-svg {
+    position: absolute;
+    top: 16px;
+    left: 23px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .delivery-image-position {
+    margin-top: 40px;
+  }
+
+  .delivery-article {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 544px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .delivery-section {
+    background-color: #fff;
+    padding: 100px 0px;
+  }
+  .list {
+    list-style: none;
+  }
+  .delivery-title {
+    font-size: 44px;
+    color: #000;
+    font-family: "Montserrat" sans-serif;
+
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .delivery-line-title {
+    width: 100%;
+    margin-left: 16px;
+
+    height: 1px;
+    color: black;
+  }
+  .delivery-title-position {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .delivery-svg-ellipse {
+    width: 64px;
+    height: 64px;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #000;
+  }
+  .delivery-order-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 52px;
+    margin-left: 96px;
+  }
+  .delivery-order-number {
+    display: flex;
+
+    align-items: center;
+  }
+  .delivery-svg-position {
+    position: relative;
+  }
+  .number-in-svg {
+    position: absolute;
+    top: 16px;
+    left: 27px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .delivery-image-position {
+    margin-top: 69px;
+  }
+
+  .delivery-article {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    max-width: 855px;
+    margin-left: 56px;
   }
 }
