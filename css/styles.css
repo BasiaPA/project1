@@ -90,8 +90,8 @@ body {
   .delivery-line-title {
     width: 100%;
     margin-left: 14px;
-    height: 1px;
-    color: black;
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
   }
   .delivery-title-position {
     display: flex;
@@ -178,8 +178,8 @@ body {
     width: 100%;
     margin-left: 16px;
 
-    height: 1px;
-    color: black;
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
   }
   .delivery-title-position {
     margin-bottom: 63px;
@@ -267,8 +267,8 @@ body {
     width: 100%;
     margin-left: 16px;
 
-    height: 1px;
-    color: black;
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
   }
   .delivery-title-position {
     margin-bottom: 80px;
